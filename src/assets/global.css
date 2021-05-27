@@ -1,0 +1,21 @@
+@import 'antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --white: #fafafa;
+    --primary: #1890ff;
+    --warning: #faad14;
+    --gray: #f0f0f0;
+    --gray-darker: #939496;
+    --black: #000000;
+    --global-font: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--white);
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: var(--global-font);
+}
+    
